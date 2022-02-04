@@ -1,0 +1,14 @@
+#Saving date to Accounts Table 
+
+INSERT INTO `springapp`.`account` (`account_number`, `aadhar_number`, `account_name`, `account_type`, `city_name`, `house_number`, `state`, `balance`, `ifsc_code`, `pannumber`, `relationshipcccode`) VALUES ('1', '6756756454', 'Ramesh', 'Saving', 'New Delhi', 'ABC123', 'Delhi', '5000', 'ABC123', 'hgfgh5r6dfg', '1');
+INSERT INTO `springapp`.`account` (`account_number`, `aadhar_number`, `account_name`, `account_type`, `city_name`, `house_number`, `state`, `balance`, `ifsc_code`, `pannumber`, `relationshipcccode`) VALUES ('2', '56765756', 'Suresh', 'Current', 'Pune', 'rt445', 'Maharashtra', '2000', 'k322', 'ghf565fg', '2');
+
+#Saving date to Policy Table 
+
+INSERT INTO `springapp`.`policy` (`policy_id`, `policy_name`, `premium_amount`, `sum_assured`) VALUES ('101', 'LongLifePolicy', '8000', '8500000');
+INSERT INTO `springapp`.`policy` (`policy_id`, `policy_name`, `premium_amount`, `sum_assured`) VALUES ('102', 'MyMedicalPolicy', '25000', '3500000');
+
+
+insert into springapp.account_policy_info values (101,1);
+insert into springapp.account_policy_info values (102,2);
+insert into springapp.account_policy_info values (101,1);
