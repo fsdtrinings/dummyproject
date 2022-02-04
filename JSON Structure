@@ -1,1 +1,40 @@
 
+{
+    "accountNumber": 1,
+    "accountName": "Ramesh",
+    "balance": 5000,
+    "pannumber": "hgfgh5r6dfg",
+    "aadharNumber": 6756756454,
+    "ifscCode": "ABC123",
+    "accountType": "Saving",
+    "relationshipCCCode": 1,
+    "address": {
+        "houseNumber": "ABC123",
+        "cityName": "New Delhi",
+        "state": "Delhi"
+    },
+    "policies": [
+        {
+            "policyId": 101,
+            "policyName": "LongLifePolicy",
+            "sumAssured": 8500000,
+            "premiumAmount": 8000
+        },
+        {
+            "policyId": 101,
+            "policyName": "LongLifePolicy",
+            "sumAssured": 8500000,
+            "premiumAmount": 8000
+        }
+    ]
+}
+
+
+//=============  Policy Structure =============
+ {
+        "policyId": 101,
+        "policyName": "LongLifePolicy",
+        "sumAssured": 8500000,
+        "premiumAmount": 8000
+    }
+
