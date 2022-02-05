@@ -1,4 +1,20 @@
+{
+    "accountName": "Kavita",
+    "balance": 8000,
+    "pannumber": "pukuyh5r6dfg",
+    "aadharNumber": 6756756454,
+    "ifscCode": "ABC123",
+    "accountType": "Saving",
+    "relationshipCCCode": 1,
+    "address": {
+        "houseNumber": "ABC123",
+        "cityName": "Shimla",
+        "state": "Himachal"
+    }
+}
 
+
+//======================================= with policy ====================
 {
     "accountNumber": 1,
     "accountName": "Ramesh",
